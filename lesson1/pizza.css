@@ -3,5 +3,32 @@ body {
     background-image: url('https://imageproxy.wolt.com/mes-image/f470a324-563a-444f-b372-0e861ad566d5/39c92693-23f2-495a-83d3-19b371e2efdb');
     background-size: cover;
     background-attachment: fixed;
-    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    background-color: #ffffffc4;
+    padding: 4px 12px;
+    border-radius: 5px;
+    width: 300px;
+    text-align: center;
+    margin: 18px auto;
+}
+
+form {
+    background-color: #ffffffd9;
+    width: 300px;
+    min-height: 400px;
+    padding: 12px;
+    border-radius: 5px;
+    margin: auto;
+}
+
+input {
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 2px;
+    margin-bottom: 12px;
+    font-size: 16px;
+    padding: 4px;
 }
