@@ -41,7 +41,7 @@ form {
     margin: auto;
 }
 
-input {
+input, select {
     /* רוחב */
     width: 100%;
     /* ריווח פנימי */
