@@ -14,8 +14,21 @@
             טלפון:
             <input type="tel">
 
-            כתובת:
-            <input type="text">
+            עיר:
+            <select>
+                <option></option>
+                <option>ראש העין</option>
+                <option>רחובות</option>
+                <option>בני ברק</option>
+                <option>אשדוד</option>
+                <option>אשקלון</option>
+                <option>רמת גן</option>
+                <option>בת ים </option>
+                <option>נתיבות</option>
+                <option>קרית ארבע</option>
+                <option>באר שבע</option>
+                <option>אלפי מנשה</option>
+            </select>
 
             אמייל:
             <input type="email">
@@ -68,6 +81,24 @@
             <label>
                 <input type="radio" name="payment"> PayBox
             </label>
+
+            <button>שלח</button>
         </form>
+
+        <script>
+            // הוספנו את זה לצורך הדגמה לשימוש ב-API
+            // זה מושך מהמאגר הממשלתי את רשימת 60 הערים הראשונות בישראל (לפי א-ב)
+            // fetch("https://data.gov.il/api/3/action/datastore_search?resource_id=e9701dcb-9f1c-43bb-bd44-eb380ade542f&limit=60")
+            // .then(res => res.json())
+            // .then(data => {
+            //     const select = document.querySelector("select");
+
+            //     data.result.records.forEach(x => {
+            //         const option = document.createElement("option");
+            //         option.innerHTML = x.name_in_hebrew;
+            //         select.appendChild(option);
+            //     });
+            // });
+        </script>
     </body>
 </html>
