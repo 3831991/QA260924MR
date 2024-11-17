@@ -1,34 +1,57 @@
 body {
+    /* כיוון האתר מימין לשמאל */
     direction: rtl;
+    /* רקע לאתר באמצעות תמונה */
     background-image: url('https://imageproxy.wolt.com/mes-image/f470a324-563a-444f-b372-0e861ad566d5/39c92693-23f2-495a-83d3-19b371e2efdb');
+    /* שימוש בתמונה באופן מותאם */
     background-size: cover;
+    /* שומר על מיקום התמונה גם בגלילה */
     background-attachment: fixed;
+    /* גופן */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h1 {
+    /* רקע לכותרת */
     background-color: #ffffffc4;
+    /* ריווח פנימי */
     padding: 4px 12px;
+    /* עיגול קצוות */
     border-radius: 5px;
+    /* רוחב */
     width: 300px;
+    /* מרכוז טקסט */
     text-align: center;
+    /* ריווח חיצוני אוטומטי לצורך מרכוז הכותרת */
     margin: 18px auto;
 }
 
 form {
+    /* רקע */
     background-color: #ffffffd9;
+    /* רוחב */
     width: 300px;
+    /* גובה התחלתי */
     min-height: 400px;
+    /* ריווח פנימי */
     padding: 12px;
+    /* עיגול קצוות */
     border-radius: 5px;
+    /* ריווח חיצוני אוטומטי לצורך מרכוז הכותרת */
     margin: auto;
 }
 
 input {
-    box-sizing: border-box;
+    /* רוחב */
     width: 100%;
-    margin-top: 2px;
-    margin-bottom: 12px;
-    font-size: 16px;
+    /* ריווח פנימי */
     padding: 4px;
+    /* ריווח חיצוני מלמעלה */
+    margin-top: 2px;
+    /* ריווח חיצוני מלמטה */
+    margin-bottom: 12px;
+    /* גודל הטקסט */
+    font-size: 16px;
+    /* שמירה על גובה ורוחב */
+    box-sizing: border-box;
 }
