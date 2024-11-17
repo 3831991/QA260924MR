@@ -55,3 +55,16 @@ input, select {
     /* שמירה על גובה ורוחב */
     box-sizing: border-box;
 }
+
+input[type=checkbox],
+input[type=radio] {
+    width: initial;
+}
+
+label {
+    display: block;
+}
+
+h4 {
+    margin-bottom: 12px;
+}
